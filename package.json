@@ -1,0 +1,51 @@
+{
+  "name": "FLSGuidePWA",
+  "description": "FLS participant companion app",
+  "version": "1.0.0",
+  "author": "nurul irfan <irfanlongstride@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "dayjs": "^1.7.5",
+    "filepond-plugin-image-preview": "^2.0.1",
+    "localforage": "^1.7.2",
+    "lodash": "^4.17.11",
+    "marked": "^0.5.0",
+    "vee-validate": "^2.1.0-beta.9",
+    "vue": "^2.5.11",
+    "vue-cute-timeline": "^1.2.4",
+    "vue-filepond": "^3.0.3",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.2.3",
+    "vuex": "^3.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "html-webpack-plugin": "^3.0.6",
+    "serviceworker-webpack-plugin": "^0.2.3",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-auto-inject-version": "^1.1.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
